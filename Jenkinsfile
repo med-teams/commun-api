@@ -4,7 +4,7 @@ node {
   }
   stage('SonarQube Analysis') {
     def mvn = tool 'Default Maven';
-    withSonarQubeEnv() {
+    withSonarQubeEnv('SonarQube') {
       sh "${mvn}/bin/mvn clean verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=commun-api -Dsonar.projectName='commun-api'"
     }
   }
