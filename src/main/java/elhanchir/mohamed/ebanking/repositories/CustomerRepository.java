@@ -7,4 +7,5 @@ public interface CustomerRepository extends JpaRepository<Customer,Long> {
     Customer countCustomerByEmail(String email);
     Customer countAllByEmail(String email);
     Customer findCustomerByEmail(String email);
+    Customer getAllByEmailContains(String email);
 }
