@@ -1,0 +1,80 @@
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Maven
+target/
+*.class
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Gradle
+.gradle/
+build/
+
+# STS (Spring Tools Suite)
+.classpath
+.project
+.settings/
+.sts4-cache/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Runtime
+*.pid
+*.seed
+*.pid.lock
+
+# Node (if used)
+node_modules/
+npm-debug.log*
+
+# Compiled files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# System files
+.env
+.env.local
+.env.*.local
+
+# IDE Plugins
+.vscode/
+.idea_modules/
+
+# Misc
+*.swp
+*.swo
+*~
+.vimrc
+
+# Temporary files
+tmp/
+temp/
+
